@@ -1,0 +1,69 @@
+connecting to client at 'localhost'
+connecting to client port at '30000'
+
+database table cardinalities:
+warehouses = 2
+districts = 10
+customers = 3000
+items = 100000
+orders = 3000
+stock = 100000
+new-orders = 900
+
+transaction mix:
+new-order mix 0.45
+payment mix 0.43
+order-status mix 0.04
+delivery mix 0.04
+stock-level mix 0.04
+
+transaction thresholds:
+new-order threshold 0.45
+payment threshold 0.88
+order-status threshold 0.92
+delivery threshold 0.96
+stock-level threshold 1.00
+
+delivery keying time 0 s
+new_order keying time 0 s
+order-status keying time 0 s
+payment keying time 0 s
+stock-level keying time 0 s
+
+delivery thinking time 0 ms
+new_order thinking time 0 ms
+order-status thinking time 0 ms
+payment thinking time 0 ms
+stock-level thinking time 0 ms
+
+w_id range 1 to 2
+
+10 terminals per warehouse
+
+600 second steady state duration
+
+driver is starting to ramp up at time 1430498340
+driver will ramp up in  1 seconds
+will stop test at time 1430498941
+seed for 21655:fd460910 : 2818601138
+seed for 21655:fd1c2910 : 2824395155
+seed for 21655:fd1a2910 : 2823889743
+seed for 21655:fd182910 : 2823919079
+seed for 21655:fd162910 : 2824739619
+seed for 21655:fd142910 : 2824531591
+seed for 21655:fd122910 : 2824804911
+seed for 21655:fd102910 : 2824002519
+seed for 21655:fd0e2910 : 2823778949
+seed for 21655:fd0c2910 : 2823540218
+seed for 21655:fd0a2910 : 2823577730
+seed for 21655:fd082910 : 2823617277
+seed for 21655:fd062910 : 2823643149
+seed for 21655:fd042910 : 2823679403
+seed for 21655:fd022910 : 2823427644
+seed for 21655:fd002910 : 2823724374
+seed for 21655:fcfe2910 : 2847084502
+seed for 21655:fcfc2910 : 2847864459
+seed for 21655:fcfa2910 : 2847634444
+seed for 21655:fcf82910 : 2847931665
+terminals started...
+driver is exiting normally
